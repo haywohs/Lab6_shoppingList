@@ -21,7 +21,7 @@
         <form action="ShoppingList" method="post">
             <ul>
                 <c:forEach var="itemList" items="${itemList}">
-                    <li>
+                    <li style="list-style: none">
                         <input type="radio" name="item" value="${itemList}">${itemList}
                     </li>
                 </c:forEach>
